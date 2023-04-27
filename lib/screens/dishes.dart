@@ -65,13 +65,13 @@ class _AllDishesState extends State<AllDishes> {
                           Icon(
                             Icons.calendar_month,
                             color: Colors.orange,
-                            size: height * 0.02,
+                            size: width * 0.04,
                           ),
                           Text(
                             "  21 May 2021",
                             style: TextStyle(
                               fontWeight: FontWeight.w700,
-                              fontSize: height * 0.018,
+                              fontSize: width * 0.033,
                               color: Colors.black,
                             ),
                           ),
@@ -96,13 +96,13 @@ class _AllDishesState extends State<AllDishes> {
                         Icon(
                           Icons.lock_clock,
                           color: Colors.orange,
-                          size: height * 0.02,
+                          size: width * 0.04,
                         ),
                         Text(
                           "  10:30 pm to 12:30 pm",
                           style: TextStyle(
                             fontWeight: FontWeight.w700,
-                            fontSize: height * 0.018,
+                            fontSize: width * 0.033,
                             color: Colors.black,
                           ),
                         ),
